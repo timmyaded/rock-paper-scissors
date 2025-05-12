@@ -44,6 +44,9 @@ function play(userChoice) {
   var finalResult = '';
 
   document.querySelector(".computer-display").textContent = "Computer picked " + computerChoice;
+  setTimeout(() => {
+    document.querySelector(".computer-display").textContent = "Computer Choice: ❓";
+  },1000);
 
   
   if (userChoice === 'rock' && computerChoice === 'scissors') {
@@ -70,6 +73,11 @@ function play(userChoice) {
 
   
   resultDiv.textContent = result;
+  setTimeout(() => {
+    resultDiv.textContent = "Make your move!";  
+ }, 1000);
+ 
+
 
   document.querySelector('.player-score').textContent = "🧑 You: " + playerScore;
   document.querySelector('.computer-score').textContent = "💻 Computer: " + computerScore;
