@@ -1,5 +1,7 @@
 
 
+
+
 var buttons = document.querySelectorAll('.buttons button');
 var resultDiv = document.querySelector('.result');
 var choices = ['rock', 'paper', 'scissors'];
@@ -46,7 +48,7 @@ function play(userChoice) {
   document.querySelector(".computer-display").textContent = "Computer picked " + computerChoice;
   setTimeout(() => {
     document.querySelector(".computer-display").textContent = "Computer Choice: ❓";
-  },1000);
+  },1500);
 
   
   if (userChoice === 'rock' && computerChoice === 'scissors') {
@@ -75,7 +77,7 @@ function play(userChoice) {
   resultDiv.textContent = result;
   setTimeout(() => {
     resultDiv.textContent = "Make your move!";  
- }, 1000);
+ }, 1500);
  
 
 
@@ -93,3 +95,4 @@ function play(userChoice) {
     setButtonsDisabled(true); 
   }
 }
+
