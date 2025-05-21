@@ -139,9 +139,8 @@
     }
     
     .scoreboard {
-      flex-direction:row;
+      flex-direction: column;
       align-items: center;
-      justify-content: space-around;
     }
   }
   
@@ -160,9 +159,9 @@
     }
     
     .scoreboard {
-      flex-direction:row;
+      flex-direction: column;
       align-items: center;
-      justify-content: space-around;    }
+    }
   }
   
   @media (max-width: 768px) {
@@ -179,21 +178,20 @@
     }
     
     .scoreboard {
-      flex-direction:row;
+      flex-direction: column;
       align-items: center;
-      justify-content: space-around;
     }
   }
   
   @media (max-width: 480px) {
     .game {
-      width: 90%;
+      width: 100%;
+      
     }
   
     .scoreboard {
-      flex-direction:row;
+      flex-direction: column;
       align-items: center;
-      justify-content: space-around;
     }
   }
   
