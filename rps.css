@@ -139,8 +139,9 @@
     }
     
     .scoreboard {
-      flex-direction: column;
+      flex-direction:row;
       align-items: center;
+      justify-content: space-around;
     }
   }
   
@@ -159,9 +160,9 @@
     }
     
     .scoreboard {
-      flex-direction: column;
+      flex-direction:row;
       align-items: center;
-    }
+      justify-content: space-around;    }
   }
   
   @media (max-width: 768px) {
@@ -178,8 +179,9 @@
     }
     
     .scoreboard {
-      flex-direction: column;
+      flex-direction:row;
       align-items: center;
+      justify-content: space-around;
     }
   }
   
@@ -189,7 +191,10 @@
     }
   
     .scoreboard {
-      flex-direction: column;
+      flex-direction:row;
       align-items: center;
+      justify-content: space-around;
     }
   }
+  
+  
