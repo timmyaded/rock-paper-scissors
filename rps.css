@@ -130,6 +130,11 @@
     .game{
       margin-top: 18dvh;
     }
+    .buttons{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
 
     #reset{
       margin-top: 12dvh;
@@ -151,6 +156,11 @@
       margin-top: 15dvh;
     }
 
+    .buttons{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
     #reset{
       margin-top: 8dvh;
     }
@@ -170,6 +180,12 @@
       margin-top: 10dvh;
     }
 
+    .buttons{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
     #reset{
       margin-top: 5dvh;
     }
@@ -187,7 +203,11 @@
     .game {
       width: 90%;
     }
-  
+    .buttons{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
     .scoreboard {
       flex-direction: column;
       align-items: center;
